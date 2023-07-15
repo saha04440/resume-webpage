@@ -6,21 +6,21 @@ document.querySelector("#formSearch").onsubmit = function() {
 
 // Clickable link 
 document.querySelector(".aboutClickJS").onclick = function() {
-    window.location = "/flipkart/about.html";
+    window.location = "about.html";
 }
 
 document.querySelector(".projectClickJS").onclick = function() {
-    window.location = "/flipkart/project.html";
+    window.location = "project.html";
 }
 
 document.querySelector(".contactClickJS").onclick = function() {
-    window.location = "/flipkart/contact.html";
+    window.location = "contact.html";
 }
 
 document.querySelector(".moreClickJS").onclick = function() {
-    window.location = "/flipkart/education.html";
+    window.location = "education.html";
 }
 
 document.querySelector(".skillClickJS").onclick = function() {
-    window.location = "/flipkart/skill.html";
+    window.location = "skill.html";
 }
