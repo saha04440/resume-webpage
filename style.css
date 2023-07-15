@@ -1,0 +1,150 @@
+.nav {
+    color: white;
+}
+
+@media only screen and (min-width: 768px){
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+.menuNav:hover {
+    color: rgb(243, 227, 0);
+}
+
+.logoName {
+    margin-left: 30px;
+}
+
+.navTitle {
+    margin-left: 270px;
+}
+
+.profileImg {
+    height: 200px;
+    border-radius: 30%;
+}
+
+.aboutImg {
+    display: block;
+    margin: auto;
+}
+
+.projectTitle {
+    background-color: rgb(74, 84, 81);
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.clickbtn:hover {
+    color: blue;
+    background-color: white;
+}
+
+.contactParagraph {
+    text-decoration: none;
+}
+
+.tableEdu {
+    margin-top: 60px;
+}
+
+.footerArea {
+    position: relative;
+    top: 200px;
+}
+
+h6.paragraphTitle {
+    margin: 30px 50px;
+    color: rgb(71, 76, 81);
+    font-size: 115%;
+}
+
+hr {
+    border-top: 6px dotted rgb(60, 56, 56);
+    margin: auto;
+    width: 60%;
+}
+
+div.projectContainer {
+    margin-top: 90px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+img.projectImg {
+    margin: 10px auto;
+    height: 400px;
+    display: block;
+}
+
+.skill-1 {
+    height: 120px;
+    margin-top: 50px;
+}
+
+.skillTitle {
+    margin-top: 90px;
+}
+
+div.experienceContainer {
+    margin-top: 230px;
+    text-align: center;
+}
+
+#gmailLogo {
+    height: 80px;
+}
+
+.eduImgLogo {
+    margin-top: 100px;
+    height: 150px;
+}
+
+.diplomaImg {
+    height: 140px;
+}
+
+.hsImg {
+    height: 140px;
+}
+
+.tenImg {
+    height: 160px;
+}
+
+.educontainer {
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .sidebar {
+        background-color: rgb(13, 90, 162);
+        backdrop-filter: blur(10px);
+    }
+}
+
+.titlefonttext {
+    color: white;
+}
+
+.titlefonttext:hover {
+    color: rgb(235, 255, 178);
+    text-decoration: underline;
+}
+
+.navul {
+    font-size: 18px;
+}
+
+.btnname {
+    margin-top: 4px;
+    height: 37px;
+} 

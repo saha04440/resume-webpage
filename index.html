@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Amit Saha/Home</title>
+
+    <!-- Bootstrap CSS link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- CSS link  --> 
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- Navigation bar  -->
+    <nav class="navbar navbar-expand-lg bg-primary fixed-top">
+      <div class="container">
+        <a class="navbar-brand fs-5 titlefonttext" href="#info">Amit Saha</a>
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header text-white border-bottom">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><a class="text-white text-decoration-none" href="#info">Amit Saha</a></h5>
+            <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center align-items-center navul flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link titlefonttext mx-2" aria-current="page" href="#info">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link titlefonttext mx-2" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link titlefonttext mx-2" href="#skill">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link titlefonttext mx-2" href="#project">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link titlefonttext mx-2" href="#education">Education</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle titlefonttext mx-2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://www.linkedin.com/in/amit-saha-7308aa269" target="_blank">Linkedin</a></li>
+                  <li><a class="dropdown-item" href="https://www.facebook.com/people/Amit-Saha/pfbid02to7YZMHpecQZa1yXEr2HJCc8VdLM3HvrizQ7hN61ui9xYa5HsFXCbL9wqKZsefFrl/" target="_blank">Facebook</a></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/@OneDreamOneWorld" target="_blank">Youtube</a></li>
+                  <li><a class="dropdown-item" href="contact.html">Contact with Me</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form id="formSearch" class="d-flex" role="search" method="get">
+              <input id="googleSearchBox" class="btnname form-control me-2" type="search" placeholder="Google Search" aria-label="Search">
+              <button id="chromebtn" class="btnname btn btn-outline-success" style="color: rgb(13, 7, 7); background-color: aliceblue;" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Top Section - About -->
+  <section>
+    <div id="info" class="container-fluid pb-0 my-0 mt-0">
+      <div class="pt-5 text-center bg-body-tertiary rounded-3">
+        <img class="profileImg" src="images\profile.png" alt="profile_pic">
+        <h1 class="text-body-emphasis mt-2">Amit Saha</h1>
+        <p class="col-lg-8 mx-auto fs-5 text-muted">
+          Hi, Welcome to my Webpage. I Know about HTML , CSS , Javascript, Bootstrap, jQuery and Servicenow like Table, Workflow etc.
+        </p>
+        <div class="d-inline-flex gap-2 mb-5">
+          <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill aboutClickJS clickbtn" type="button">More about Myself
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- Middle Section - Skills -->
+  <div id="skill" class="album py-5 text-center bg-body-tertiary">
+        <h1 class="text-body-emphasis mb-5">Skills</h1>
+          <img class="skill-1 mt-0" src="images_skill\html.png" alt="skill-1">
+          <h5>HTML</h5>
+          <img class="skill-1" src="images_skill\css.png" alt="skill-2">
+          <h5>CSS</h5>
+          <img class="skill-1 mt-4" src="images_skill\bootstrap.png" alt="skill-3">
+          <h5>Bootstrap</h5>
+    <div class="d-inline-flex gap-2 mt-3">
+      <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill skillClickJS clickbtn mt-4" type="button">More Skills
+      </button>
+    </div>
+  </div>
+
+    <hr>
+
+    <!-- Middle Section - Project -->
+    <div id="project" class="album py-5 text-center bg-body-tertiary">
+      <div class="container">
+          <h1 class="text-body-emphasis mb-5">Project</h1>
+        <div class="row justify-content-center row-cols-1 row-cols-sm-2">
+          <div class="col">
+            <div class="card shadow img-thumbnail">
+              <img src="images_project\todoList_project.png" alt="Project-2">
+              <h5 class="projectTitle mb-0 pb-1">To-Do List</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-inline-flex gap-2 mt-3">
+        <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill projectClickJS clickbtn mt-4" type="button">More Project
+        </button>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Section - Education -->
+    <div id="education" class="album py-5 text-center bg-body-tertiary">
+      <div class="container">
+          <h1 class="text-body-emphasis mb-5">Education</h1>
+        <div class="row justify-content-center row-cols-1 row-cols-sm-3">
+          <div class="col">
+            <div class="card shadow img-thumbnail">
+              <img src="images\btech_logo.jpeg" alt="Project-2">
+              <h5 class="projectTitle pb-1 mb-0">Bachelor of Technology - 2021</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-inline-flex gap-2 mt-3">
+        <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill moreClickJS clickbtn mt-4" type="button">More</button>
+      </div>
+    </div>
+
+    <!-- Bottom Section - Footer -->
+    <div class="bg-dark text-secondary text-center">
+      <div class="py-5">
+        <div class="col-lg-6 mx-auto">
+          <p class="fs-5 mb-">I try to explain myself. I mean this is basicaly a project type resume webpage of my resume where I try to explain myself. If anyone like my project and contact with me then go to below <a class="contactParagraph" href="contact.html">'Contact with Me'</a> Section. <br>Thank you for visit my Webpage.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-outline-light btn-lg px-4 contactClickJS">Contact with Me</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Bootstrap js link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <!-- JS link  -->
+    <script src="script.js"></script>
+  </body>
+</html>
