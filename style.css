@@ -78,6 +78,10 @@ div.projectContainer {
     text-align: center;
 }
 
+.projectContainerImg {
+    margin-top: 60px;
+}
+
 img.projectImg {
     margin: 10px auto;
     height: 400px;
