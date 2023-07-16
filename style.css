@@ -148,3 +148,15 @@ div.experienceContainer {
     margin-top: 4px;
     height: 37px;
 } 
+
+.myprofilebtn {
+    margin: 0 25px;
+}
+
+.myprofilebtn:hover {
+    background-color: rgb(31, 60, 149);
+}
+
+.profilebtn {
+    text-align: center;
+}
