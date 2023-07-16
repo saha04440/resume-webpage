@@ -24,3 +24,16 @@ document.querySelector(".moreClickJS").onclick = function() {
 document.querySelector(".skillClickJS").onclick = function() {
     window.location = "skill.html";
 }
+
+here
+document.querySelector(".projectClickbtn").onclick = function() {
+    window.location = "project.html";
+}
+
+document.querySelector(".moreClickbtn").onclick = function() {
+    window.location = "education.html";
+}
+
+document.querySelector(".skillClickbtn").onclick = function() {
+    window.location = "skill.html";
+}
